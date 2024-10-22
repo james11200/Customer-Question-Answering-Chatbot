@@ -1,4 +1,6 @@
 * filter=lfs diff=lfs merge=lfs -text
+bert_model/* filter=lfs diff=lfs merge=lfs -text
+bert_tokenizer/* filter=lfs diff=lfs merge=lfs -text
 *.py filter=lfs diff=lfs merge=lfs -text
 *.md filter=lfs diff=lfs merge=lfs -text
 *.json filter=lfs diff=lfs merge=lfs -text
