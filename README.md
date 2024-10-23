@@ -36,25 +36,17 @@ This project is a fine-tuned BERT-based-Chinese chatbot designed to answer custo
 ## Installation and Setup
 
 ### 1. Clone the repository.
-    ```bash
     git clone https://github.com/james11200/Customer-Question-Answering-Chatbot.git
-    ```
-
+    
 ### 2. Install the required dependencies.
-    ```bash
     pip install transformers torch pandas flask scikit-learn flask-cors
-    ```
-
+    
 ### 3. Run `train.py` to train the chatbot and encode the knowledge base.
-    ```bash
     python train.py
-    ```
-
+    
 ### 4. Start the Flask application to serve the chatbot.
-    ```bash
     python app.py
-    ```
-
+    
 ### 5. Open a browser and visit `http://localhost:5000` to interact with the chatbot.
 
 ## Usage
